@@ -47,7 +47,3 @@ pip install pywin32
    python minesweeper.py
    ```
 2. Open the **game folder** to play.
-
-## License
-This project is free for educational use and modification.
-
