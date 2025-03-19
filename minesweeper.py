@@ -1,8 +1,8 @@
 from engine import *
 import random
 
-dim = [16, 7]
-avrgMines = 20
+dim = [15, 7]
+avrgMines = 15
 
 
 
@@ -54,7 +54,7 @@ while 1:
                             addButton(str(y) + chr(x + 97), "mine.ico", [x,y])
                         else:
                             addButton(str(y) + chr(x + 97), "num"+str(field[y][x])+".ico", [x,y])
-                addButton("restart","restart.ico",[5, 2])
+                addButton("restart","restart.ico",[7, 3])
                 game = False
             elif not (x,y) in opend:
                 addButton(str(y) + chr(x + 97), "num"+str(field[y][x])+".ico", [x,y])
@@ -66,7 +66,7 @@ while 1:
                         for x in range(dim[0]):
                             if field[y][x] == "X":
                                 addButton(str(y) + chr(x + 97), "trophy.ico", [x,y])
-                    addButton("restart","restart.ico",[5, 2])
+                    addButton("restart","restart.ico",[7, 3])
                     game = False
         if not game:
             if i == "restart":
