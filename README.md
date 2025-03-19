@@ -3,7 +3,7 @@
 ## Overview
 This is an **old project from 2022**. It is a minimalistic game engine that lets you play games directly inside a folder in Windows File Explorer. Included are **Flappy Bird** and **Minesweeper**, for demonstation.
 
-##How It Works
+## How It Works
 The engine uses Windows File Explorer as its display and input system. The game scene is shown as a folder, where each interactive element is represented by a shortcut file (.lnk) with an icon. These shortcuts act as buttons, and clicking one triggers an action stored in a text file.
 
 Every frame, the engine reads this text file to determine the player's input and updates the game by modifying the folder contents. New icons are assigned from a sprite folder, and the scene refreshes based on Explorer’s update cycle.
