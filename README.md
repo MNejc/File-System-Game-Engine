@@ -34,7 +34,7 @@ A basic version of Flappy Bird. Click to make the bird jump and avoid obstacles.
 ## Dependencies
 Install dependencies:
 ```sh
-   pip install pywin32
+pip install pywin32
 ```
 
 ## Running the Games
